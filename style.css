@@ -1,0 +1,1221 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  background: #151719;
+  color: #ffffff;
+}
+
+/*                Header               */
+
+header {
+  background: #151719;
+
+  width: 1272px;
+  height: 60px;
+  opacity: 1;
+}
+/* Logo */
+#logo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 168px;
+  top: 24px;
+}
+/* Sign in button */
+.links {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  top: 24px;
+  left: 1016px;
+}
+#signIN {
+  position: absolute;
+  width: 50px;
+  height: 24px;
+  left: 59px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #5d5dff;
+  text-decoration: none;
+}
+/* Sign up button */
+.cta {
+  position: absolute;
+  width: 96px;
+  height: 40px;
+  opacity: 1;
+
+  top: 20px;
+  left: 1176px;
+
+  border-radius: 2px;
+  background: #5d5dff;
+  box-shadow: 0px 1px 3px 0px #19202c0a;
+}
+#signUp {
+  position: absolute;
+  width: 56px;
+  height: 24px;
+  top: 8px;
+  left: 20px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* Header end here */
+
+/* Hero Section start */
+.hero {
+  width: 1645.2322998046875px;
+  height: 1363.635986328125px;
+
+  opacity: 1;
+}
+
+/* Text Section start */
+.content {
+  position: absolute;
+  width: 768px;
+  height: 138px;
+  top: 160px;
+  left: 336px;
+  opacity: 1;
+}
+/* Hero Heading */
+#landingHeading {
+  width: 768px;
+  height: 62px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #d9e3ea;
+}
+/* Hero Paragraph */
+#landingPara {
+  position: absolute;
+  width: 768px;
+  height: 60px;
+  top: 78px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #9ba9b4;
+}
+/* Text section end */
+
+/* Buttons section start*/
+
+.buttons {
+  width: 328px;
+  height: 48px;
+  /* top: 330px;
+left: 556px; */
+  opacity: 1;
+}
+/* Start free trial Button */
+.button1 {
+  position: absolute;
+  width: 167px;
+  height: 48px;
+
+  top: 330px;
+  left: 556px;
+
+  opacity: 1;
+  background-color: #5d5dff;
+  border-radius: 2px;
+  box-shadow: 0px 10px 15px -3px #15171929;
+}
+#trial {
+  position: absolute;
+  background-color: #5d5dff;
+  width: 103px;
+  height: 24px;
+  top: 12px;
+  left: 32px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+  border: none;
+}
+/* Learn More button */
+.button2 {
+  position: absolute;
+  width: 149px;
+  height: 48px;
+  top: 330px;
+  left: 735px;
+  opacity: 1;
+
+  border-radius: 2px;
+  background: #33363a;
+  box-shadow: 0px 10px 15px -3px #15171929;
+}
+#learnMore {
+  position: absolute;
+  background: #33363a;
+  border: none;
+  width: 85px;
+  height: 24px;
+  top: 12px;
+  left: 32px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #c5d2dc;
+}
+/* Button section end */
+
+/* Video section start */
+
+.video {
+  position: absolute;
+  width: 1024px;
+  height: 576px;
+  top: 442px;
+  left: 208px;
+  opacity: 1;
+}
+      /* .play-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 2;
+        transition: transform 0.2s ease;
+      }
+
+      .play-button:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+
+      .play-button::before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 20px solid #3b82f6;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+      } */
+iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: none;
+        z-index: 0;
+      }
+#poster {
+  width: 1024px;
+  height: 576px;
+
+  opacity: 0.88;
+}
+/* Centre play button start */
+#play {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    top: 686px;
+    left: 676px;
+    opacity: 1;
+}
+.play:hover {
+        transform: translate(-50%, -50%) scale(1.1);
+      }
+.combinedShape {
+    width: 88px;
+    height: 88px;
+    
+    background: linear-gradient(
+        213.57deg,
+        rgba(235, 241, 245, 0.8) 14.42%,
+        #ebf1f5 84.52%
+        );
+        box-shadow: 0px 16px 32px 0px #1517193d;
+        border-radius: 50%;
+        
+        opacity: 1;
+    }
+    #path {
+        position: absolute;
+        width: 12px;
+        height: 15.999131202697754px;
+        top: 722px;
+        left: 716px;
+        background: #5d5dff;
+        box-shadow: 0px 16px 32px 0px #1016413d;
+        
+        opacity: 1;
+        clip-path: polygon(0 0, 0 100%, 100% 50%);
+    }
+    /* Centre play button end here */
+/* video section end */
+
+/* Hero Section end */
+
+/* Features section start */
+
+.features {
+  position: absolute;
+  width: 1105px;
+  height: 864px;
+  top: 1146px;
+  left: 168px;
+  opacity: 1;
+}
+/* Features Heading start */
+.featureHeading {
+  position: absolute;
+  width: 768px;
+  height: 127px;
+  left: 168px;
+  opacity: 1;
+}
+.featureHeadingText {
+  position: absolute;
+  width: 768px;
+  height: 100px;
+  top: 3px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+.featureParagraph {
+  position: absolute;
+  width: 768px;
+  height: 60px;
+  top: 147px;
+  left: 168px;
+  opacity: 1;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #9ba9b4;
+}
+/* Features Heading  end */
+
+/* Icons section start */
+.icons {
+  position: absolute;
+  width: 1104px;
+  height: 524px;
+  top: 259px;
+  left: 1px;
+  opacity: 1;
+}
+.icon1 {
+  width: 325px;
+  height: 230px;
+  opacity: 1;
+}
+.icon2 {
+  position: absolute;
+  width: 326px;
+  height: 230px;
+  top: 0px;
+  left: 389px;
+  opacity: 1;
+
+}
+.icon3 {
+  position: absolute;
+  width: 325px;
+  height: 230px;
+  top: 0px;
+  left: 779px;
+  opacity: 1;
+}
+.icon4 {
+  position: absolute;
+  width: 325px;
+  height: 230px;
+  top: 294px;
+  left: 0px;
+  opacity: 1;
+}
+.icon5 {
+  position: absolute;
+  width: 326px;
+  height: 230px;
+  top: 294px;
+  left: 389px;
+  opacity: 1;
+}
+.icon6 {
+  position: absolute;
+  width: 325px;
+  height: 230px;
+  top: 294px;
+  left: 779px;
+  opacity: 1;
+}
+
+.iconImg1{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    opacity: 1;
+    top: 0px;
+    left: 131px;
+    
+}
+
+
+
+.iconText{
+    position: absolute;
+    width: 325px;
+height: 150px;
+opacity: 1;
+top: 87px;
+left: 0px;
+
+}
+.iconHeading{
+    position: absolute;
+width: 286px;
+height: 34px;
+opacity: 1;
+left: 20px;
+font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: -0.25px;
+text-align: center;
+color: rgba(217, 227, 234, 1);
+
+}
+.iconParagraph{
+    position: absolute;
+width: 325px;
+height: 108px;
+opacity: 1;
+top: 42px;
+font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.25px;
+text-align: center;
+color: rgba(155, 169, 180, 1);
+}
+
+.rectangle{
+    width: 1104px;
+    height: 1px;
+    opacity: 1;
+    
+background: rgba(51, 54, 58, 1);
+}
+
+/* Features section end here */
+
+/* Goals section start */
+
+.goals{
+    position: absolute;
+    width: 1105px;
+height: 1708px;
+opacity: 1;
+top: 2090px;
+left: 174px;
+
+}
+/* Goal Tag start */
+.goalsTag{
+    position: absolute;
+    width: 186px;
+    height: 30px;
+    opacity: 1;
+    left: 453px;
+    
+
+}
+.goalTagBox{
+    width: 186px;
+height: 30px;
+opacity: 1;
+border-radius: 15px;
+
+background: rgba(198, 246, 213, 1);
+box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+
+
+}
+.goalTagText{
+    position: absolute;
+    width: 162px;
+    height: 22px;
+    opacity: 1;
+    top: 4px;
+    left: 12px;
+    color: rgba(54, 162, 105, 1);
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+}
+
+/* Goal Tag end */
+
+/* Goal Text start */
+.goalsText{
+    position: absolute;
+    width: 768px;
+height: 126px;
+opacity: 1;
+top: 46px;
+left: 168px;
+
+}
+.goalText1{
+    position: absolute;
+    width: 768px;
+    height: 50px;
+    opacity: 1;
+font-family: Inter;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: -0.5px;
+text-align: center;
+color: rgba(217, 227, 234, 1);
+}
+.goalText2{
+    position: absolute;
+    width: 768px;
+height: 60px;
+opacity: 1;
+top: 66px;
+font-family: Inter;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.25px;
+text-align: center;
+color: rgba(155, 169, 180, 1);
+}
+/* Goal Text end */
+
+/* Goal Tabs Start */
+/* Goal Tab Text start */
+.goalsTabs{
+    position: absolute;
+    width: 1105px;
+    height: 1574px;
+    opacity: 1;
+    top: 53px;
+left: 0px;
+}
+.goalTab1{
+    width: 1105px;
+    height: 604px;
+    opacity: 1;
+    
+    
+}
+.goalTabText{
+    position: absolute;
+    width: 500px;
+    height: 292px;
+    opacity: 1;
+    top: 256px;
+    
+}
+.textArea{
+    width: 500px;
+    height: 179px;
+    opacity: 1;
+    
+}
+.textArea1{
+    width: 250px;
+    height: 30px;
+    opacity: 1;
+    font-family: 'Architects Daughter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: rgba(93, 93, 255, 1);
+}
+.textArea2{
+    width: 500px;
+    height: 42px;
+    opacity: 1;
+    top: 38px;
+    font-family: Inter;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: -0.25px;
+color: rgba(217, 227, 234, 1);
+
+}
+.textArea3{
+    position: absolute;
+    width: 500px;
+    height: 90px;
+    opacity: 1;
+    top: 89px;
+    color: rgba(155, 169, 180, 1);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.25px;
+}
+.bulletPoints{
+    position: absolute;
+    top: 180px;
+    
+    width: 331px;
+    height: 97px;
+    opacity: 1;
+}
+.point1{
+    width: 331px;
+    height: 27px;
+    opacity: 1;
+}
+.bulletPointDot{
+    position: absolute;
+    width: 11.975423812866211px;
+    height: 8.98749828338623px;
+    opacity: 1;
+    top: 9px;
+    background: rgba(72, 187, 120, 1);
+}
+.bulletPointText{
+    position: absolute;
+    width: 311px;
+    height: 27px;
+    opacity: 1;
+    left: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+    color: rgba(155, 169, 180, 1);
+}
+/* Goal Tab Text end */
+
+/* Goal Tab illustration start */
+/* Goal Tab illustration 1 */
+.goalTabIllustration{
+    position: absolute;
+    width: 540px;
+    height: 604px;
+    opacity: 1;
+    left: 564px;
+}
+
+/* Goal Tab illustration 2 */
+.goalTabIllustration2{
+    position: absolute;
+    width: 540px;
+height: 405px;
+opacity: 1;
+top: 684px;
+left: 5px;
+
+}
+
+/* Goal Tab Text  2*/
+.goalTabText2{
+    position: absolute;
+    width: 500px;
+height: 292px;
+opacity: 1;
+top: 741px;
+left: 609px;
+
+}
+.TextArea2{
+    width: 500px;
+height: 179px;
+opacity: 1;
+
+}
+
+/* Goal Tab illustration 3 */
+.illustration3{
+    position: absolute;
+    width: 540px;
+height: 405px;
+opacity: 1;
+top: 1185px;
+left: 564px;
+
+}
+
+/* Goal Tab text 3 */
+.goalTab3{
+    position: absolute;
+    width: 1104px;
+height: 405px;
+opacity: 1;
+top: 0px;
+left: 5px;
+
+}
+.goalTabText3{
+    position: absolute;
+    width: 500px;
+    height: 292px;
+    opacity: 1;
+    top: 1250px;
+    left: 0px;
+}
+.TextArea3{
+    width: 500px;
+    height: 179px;
+    opacity: 1;
+    top: 1269px;
+}
+
+/* Goals section end here */
+
+/* Testimonials  section start here */
+.testimonials{
+    width: 1104px;
+    height: 545px;
+    opacity: 1;
+    position: absolute;
+    top: 3878px;
+    left: 168px;
+}
+.testimonialText{
+    position: absolute;
+    width: 768px;
+height: 126px;
+opacity: 1;
+/* top: 3878px; */
+left: 168px;
+}
+.testimonialText1{
+    width: 768px;
+height: 50px;
+opacity: 1;
+font-family: Inter;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+letter-spacing: -0.5px;
+text-align: center;
+color: rgba(217, 227, 234, 1);
+
+
+}
+.testimonialText2{
+    position: absolute;
+    width: 768px;
+height: 60px;
+top: 66px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.25px;
+text-align: center;
+color: rgba(155, 169, 180, 1);
+}
+.testimonialTab{
+    position: absolute;
+    width: 1104px;
+height: 339px;
+top: 206px;
+opacity: 1;
+}
+.testimonialTab1{
+    width: 352px;
+    height: 339px;
+   
+    opacity: 1;
+    
+}
+.testimonialTabBg{
+    width: 352px;
+    height: 339px;
+    opacity: 1;
+    background: rgba(37, 40, 44, 1);
+  
+
+    
+}
+.testimonialTabText{
+    position: absolute;
+width: 304px;
+height: 231px;
+top: 88px;
+left: 23px;
+opacity: 1;
+}
+.testimonialTabTextPara{
+width: 304px;
+height: 162px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.25px;
+color: rgba(155, 169, 180, 1);
+}
+.testimonialTabTextLine{
+    position: absolute;
+    width: 296px;
+    height: 1px;
+    top: 186px;
+    opacity: 1;
+    background: rgba(51, 54, 58, 1);
+
+}
+.testimonialTabTextLink{
+    position: absolute;
+    width: 280px;
+    height: 24px;
+    top: 207px;
+    opacity: 1;
+    font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.25px;
+    
+}
+
+#UX{
+    color: #5D5DFF;
+  font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.25px;
+}
+
+.testimonialTabAvatar{
+    position: absolute;
+    width: 60px;
+height: 48px;
+top: 24px;
+left: 23px;
+opacity: 1;
+
+}
+
+/* Testimonial end here*/
+
+/* Footer starts here */
+footer{
+    position: absolute;
+    width: 1104px;
+height: 503px;
+top: 4503px;
+left: 168px;
+opacity: 1;
+}
+.top{
+    width: 1104px;
+    height: 206px;
+    opacity: 1;
+
+}
+
+.bottom{
+    position: absolute;
+    width: 1104px;
+    height: 233px;
+    top: 270px;
+    opacity: 1;
+    
+}
+.inputForm{
+    position: absolute;
+    width: 467px;
+    height: 48px;
+    top: 79px;
+    left: 588px;
+    opacity: 1;
+
+}
+input{
+    width: 320px;
+height: 48px;
+opacity: 1;
+border-radius: 2px;
+border-width: 1px;
+background: rgba(75, 74, 207, 1);
+border: 1px solid rgba(141, 141, 255, 1)
+
+
+}
+button{
+    position: absolute;
+    width: 139px;
+height: 48px;
+/* top: 79px; */
+left: 330px;
+opacity: 1;
+border: none;
+background: rgba(244, 244, 255, 1);
+box-shadow: 0px 1px 3px 0px rgba(25, 32, 44, 0.04);
+
+
+}
+::placeholder{
+    position: absolute;
+    width: 126px;
+height: 24px;
+top: 12px;
+left: 16px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.25px;
+color: rgba(171, 171, 255, 1);
+
+
+
+}
+.footerButton{
+    position: absolute;
+    width: 76px;
+height: 24px;
+top: 12px;
+left: 32px;
+opacity: 1;
+font-family: Inter;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.25px;
+}
+.footerTopText{
+    position: absolute;
+    width: 500px;
+height: 77px;
+top: 65px; 
+left: 47px;
+opacity: 1;
+
+}
+.footerTopText1{
+width: 500px;
+height: 42px;
+opacity: 1;
+font-family: Inter;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: -0.25px;
+color: rgba(255, 255, 255, 1);
+
+}
+.footerTopText2{
+    position: absolute;
+width: 477px;
+height: 27px;
+top: 50px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.25px;
+color: rgba(226, 225, 255, 1);
+
+
+}
+.footerBottomLinks{
+    position: absolute;
+    width: 583px;
+height: 152px;
+top: 0px;
+left: 521px;
+opacity: 1;
+
+}
+.footerBottomText{
+    position: absolute;
+    width: 352px;
+height: 96px;
+top: 46px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.25px;
+color: rgba(155, 169, 180, 1);
+}
+.footerBottomMade{
+    position: absolute;
+    width: 225px;
+height: 22px;
+top: 205px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: rgba(155, 169, 180, 1);
+
+}
+#cruip{
+    font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+
+}
+.footerBottomLinks1{
+    width: 134px;
+    height: 100px;
+    opacity: 1;
+    
+}
+.footerBottomLinks2{
+    position: absolute;
+    width: 136px;
+    height: 152px;
+    top: 0px;
+    left: 214px;
+    opacity: 1;
+
+}
+.footerBottomLinks3{
+    position: absolute;
+    width: 153px;
+    height: 152px;
+    left:430px;
+    opacity: 1;
+    top: 0px;
+
+}
+.socialIcons{
+    position: absolute;
+    width: 224px;
+    height: 33px;
+    top: 200px;
+    left: 880px;
+    opacity: 1;
+
+}
+.footerBottomLinks1Text1{
+    width: 61px;
+    height: 22px;
+    opacity: 1;
+    text-decoration: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: rgba(217, 227, 234, 1);
+    
+}
+.footerBottomLinks1Text2{
+    position: absolute;
+    width: 76px;
+height: 22px;
+top: 26px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: rgba(155, 169, 180, 1);
+
+text-decoration: none;
+left: 0px;
+
+}
+.footerBottomLinks1Text3{
+    position: absolute;
+    text-decoration: none;
+    width: 118px;
+    height: 22px;
+    top: 52px;
+    opacity: 1;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: rgba(155, 169, 180, 1);
+    left: 0px;
+    
+    
+}
+.footerBottomLinks1Text4{
+    text-decoration: none;
+    position: absolute;
+    width: 143px;
+    height: 22px;
+    top: 78px;
+    opacity: 1;
+    left: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: rgba(155, 169, 180, 1);
+}
+.resources{
+    width: 71px;
+height: 22px;
+opacity: 1;
+font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: rgba(217, 227, 234, 1);
+
+text-decoration: none;
+
+}
+.Nostrud{
+    position: absolute;
+    width: 135px;
+height: 22px;
+opacity: 1;
+left: 0px;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+text-decoration: none;
+color: rgba(155, 169, 180, 1);
+
+
+}
+.visual{
+    position: absolute;
+    width: 114px;
+    height: 22px;
+    opacity: 1;
+    left: 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: rgba(155, 169, 180, 1);
+    text-decoration: none;
+
+
+
+}
+.Company{
+width: 64px;
+height: 22px;
+opacity: 1;
+font-family: Inter;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: rgba(217, 227, 234, 1);
+text-decoration: none;
+}
+.adipiscing{
+    position: absolute;
+    width: 153px;
+height: 22px;
+top: 26px;
+opacity: 1;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+
+color: rgba(155, 169, 180, 1);
+left: 0px;
+text-decoration: none;
+
+
+}
+.dolore{
+    position: absolute;
+width: 109px;
+height: 22px;
+opacity: 1;
+left: 0px;
+text-decoration: none;
+font-family: Inter;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0px;
+color: rgba(155, 169, 180, 1);
+
+
+
+}
+.socialIcon{
+    position: absolute;
+    width: 32px;
+height: 32px;
+opacity: 1;
+
+}

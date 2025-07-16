@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/hero.png" alt="" />
+      <div>
+        <img src="images/logo.png" id="logo" alt="" />
+      </div>
+      <div class="video">
+        <img
+          src="images/video.png"
+          alt="Video Thumbnail"
+          class="thumbnail"
+          id="poster"
+        />
+        <div class="play-button" id="playBtn"></div>
+        <iframe id="ytPlayer" allowfullscreen></iframe>
+      </div>
+      <div class="links">
+        <a href="#" id="signIN">Sign in</a>
+      </div>
+      <div class="cta">
+        <a href="#" id="signUp">Sign up</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="content">
+        <p id="landingHeading">Landing template for startups</p>
+        <p id="landingPara">
+          Our landing page template works on all devices, so you only have to
+          set it up once, and get beautiful results forever.
+        </p>
+      </div>
+
+      <div class="buttons">
+        <div class="button1"><button id="trial">Start free trial</button></div>
+        <div class="button2">
+          <button id="learnMore">Learn more</button>
+        </div>
+      </div>
+
+      <!-- <div class="video">
+        <img src="images/video.png" alt="" id="video" />
+        <video
+          src="https://www.youtube.com/watch?v=u31qwQUeGuM"
+          style="width: 100px; height: 100px"
+        ></video>
+      </div> -->
+      <div id="play">
+        <div class="combinedShape"></div>
+      </div>
+      <div id="path"></div>
+    </section>
+
+    <section class="features">
+      <div class="featureHeading">
+        <p class="featureHeadingText">
+          The majority our customers do not understand their workflows.
+        </p>
+      </div>
+      <div class="featureParagraph">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+        officia deserunt mollit anim id est laborum.
+      </div>
+      <div class="icons">
+        <div class="icon1">
+          <div class="iconImg1">
+            <img src="images/Icon1.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+        <div class="icon2">
+          <div class="iconImg1">
+            <img src="images/Icon2.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+        <div class="icon3">
+          <div class="iconImg1">
+            <img src="images/Icon3.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+        <div class="icon4">
+          <div class="iconImg1">
+            <img src="images/Icon4.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+        <div class="icon5">
+          <div class="iconImg1">
+            <img src="images/Icon5.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+        <div class="icon6">
+          <div class="iconImg1">
+            <img src="images/Icon6.png" alt="" />
+          </div>
+          <div class="iconText">
+            <div class="iconHeading">Instant Features</div>
+            <div class="iconParagraph">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="rectangle"
+        style="position: absolute; top: 864px; left: 0px"
+      ></div>
+    </section>
+
+    <section class="goals">
+      <div class="goalsTag">
+        <div class="goalTagBox">
+          <div class="goalTagText">Reach goals that matter</div>
+        </div>
+      </div>
+      <div class="goalsText">
+        <div class="goalText1">One product, unlimited solutions</div>
+        <div class="goalText2">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit laborum — semper quis lectus nulla.
+        </div>
+      </div>
+      <div class="goalsTabs">
+        <div class="goalTab1">
+          <div class="goalTabText">
+            <div class="textArea">
+              <div class="textArea1">More speed. Less spend</div>
+              <div class="textArea2">Keep projects on schedule</div>
+              <div class="textArea3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="bulletPoints">
+              <div class="point1">
+                <div class="bulletPointDot"></div>
+                <div class="bulletPointText">
+                  Duis aute irure dolor in reprehenderit
+                </div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 36px"></div>
+                <div class="bulletPointText">Excepteur sint occaecat</div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 63px"></div>
+                <div class="bulletPointText">
+                  Amet consectetur adipiscing elit
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="goalTabIllustration">
+            <img src="images/Illustration.png" alt="" />
+            <div class="illustrationBg">
+              <div class="bgRectangle"></div>
+              <div class="illustrationContent"></div>
+              <div class="illustrationTop"></div>
+              <div class="illustrationIcon"></div>
+            </div>
+          </div>
+        </div>
+        <div class="goalTab2">
+          <div class="goalTabIllustration2">
+            <img src="images/Illustration (1).png" alt="" />
+          </div>
+          <div class="goalTabText2">
+            <div class="TextArea2">
+              <div class="textArea1">More speed. Less spend</div>
+              <div class="textArea2">Keep projects on schedule</div>
+              <div class="textArea3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="bulletPoints">
+              <div class="point1">
+                <div class="bulletPointDot"></div>
+                <div class="bulletPointText">
+                  Duis aute irure dolor in reprehenderit
+                </div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 36px"></div>
+                <div class="bulletPointText">Excepteur sint occaecat</div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 63px"></div>
+                <div class="bulletPointText">
+                  Amet consectetur adipiscing elit
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="goalTab3">
+          <div class="goalTabText3">
+            <div class="TextArea3">
+              <div class="textArea1">More speed. Less spend</div>
+              <div class="textArea2">Keep projects on schedule</div>
+              <div class="textArea3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <div class="bulletPoints">
+              <div class="point1">
+                <div class="bulletPointDot"></div>
+                <div class="bulletPointText">
+                  Duis aute irure dolor in reprehenderit
+                </div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 36px"></div>
+                <div class="bulletPointText">Excepteur sint occaecat</div>
+              </div>
+              <div class="point1">
+                <div class="bulletPointDot" style="top: 63px"></div>
+                <div class="bulletPointText">
+                  Amet consectetur adipiscing elit
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="illustration3">
+            <img src="images/Illustration (2).png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="rectangle" style="position: absolute; top: 1730px"></div>
+    </section>
+
+    <section class="testimonials">
+      <div class="testimonialText">
+        <div class="testimonialText1">Don't take our word for it</div>
+        <div class="testimonialText2">
+          Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper
+          quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.
+        </div>
+      </div>
+      <div class="testimonialTab">
+        <div class="testimonialTab1">
+          <div class="testimonialTabBg">
+            <div class="testimonialTabAvatar">
+              <img src="images/Avatar1.png" alt="" />
+            </div>
+            <div class="testimonialTabText">
+              <div class="testimonialTabTextPara">
+                — Open PRO lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Open PRO for about
+                24 hours now and I honestly don't know how I functioned without
+                it before.
+              </div>
+              <div class="testimonialTabTextLine"></div>
+              <div class="testimonialTabTextLink">
+                Anastasia Dan /
+                <span id="UX">UX Board</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="testimonialTab1"
+          style="position: absolute; top: 0px; left: 375px"
+        >
+          <div class="testimonialTabBg">
+            <div class="testimonialTabAvatar">
+              <img src="images/Avatar2.png" alt="" />
+            </div>
+            <div class="testimonialTabText">
+              <div class="testimonialTabTextPara">
+                — Open PRO lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Open PRO for about
+                24 hours now and I honestly don't know how I functioned without
+                it before.
+              </div>
+              <div class="testimonialTabTextLine"></div>
+              <div class="testimonialTabTextLink">
+                Roman Level /
+                <span id="UX">AppName</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="testimonialTab1"
+          style="position: absolute; top: 0px; left: 751px"
+        >
+          <div class="testimonialTabBg">
+            <div class="testimonialTabAvatar">
+              <img src="images/Avatar3.png" alt="" />
+            </div>
+            <div class="testimonialTabText">
+              <div class="testimonialTabTextPara">
+                — Open PRO lets me quickly get the insights I care about so that
+                I can focus on my productive work. I've had Open PRO for about
+                24 hours now and I honestly don't know how I functioned without
+                it before.
+              </div>
+              <div class="testimonialTabTextLine"></div>
+              <div class="testimonialTabTextLink">
+                Akex Sackett /
+                <span id="UX">Reform Layouts</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="top">
+        <div class="footerBg">
+          <div class="footerTopText">
+            <p class="footerTopText1">Stay in the loop</p>
+            <p class="footerTopText2">
+              Join our newsletter to get top news before anyone else.
+            </p>
+          </div>
+          <img src="images/footerBg.png" alt="" />
+        </div>
+        <div class="inputForm">
+          <input type="text" placeholder="Your best email…" />
+          <button><span class="footerButton">Subscribe</span></button>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="logo"><img src="images/logo.png" alt="" /></div>
+        <p class="footerBottomText">
+          Lorem ipsum is placeholder text commonly used in the graphic, print,
+          and publishing industries for previewing layouts and visual mockups.
+          Made By HEMANT KARDAM
+        </p>
+        <p class="footerBottomMade">
+          Made by <span id="cruip">Cruip</span>. All right reserved
+        </p>
+        <div class="footerBottomLinks">
+          <div class="footerBottomLinks1">
+            <a href="#" class="footerBottomLinks1Text1">Products</a>
+            <a href="#" class="footerBottomLinks1Text2">Web Studio</a>
+            <a href="#" class="footerBottomLinks1Text3">DynamicBox Flex</a>
+            <a href="#" class="footerBottomLinks1Text4">Programming Forms</a>
+          </div>
+          <div class="footerBottomLinks2">
+            <a href="#" class="resources">Resources</a>
+            <a href="#" class="Nostrud" style="top: 26px"
+              >Nostrud exercitation</a
+            >
+
+            <a href="#" class="visual" style="top: 52px">Visual mockups</a>
+            <a href="#" class="Nostrud" style="top: 78px"
+              >Nostrud exercitation</a
+            >
+            <a href="#" class="visual" style="top: 104px">Visual mockups</a>
+            <a href="#" class="Nostrud" style="top: 130px"
+              >Nostrud exercitation</a
+            >
+          </div>
+          <div class="footerBottomLinks3">
+            <a href="#" class="Company">Company</a>
+            <a href="#" class="adipiscing" style="top: 26px"
+              >Consectetur adipiscing</a
+            >
+            <a href="#" class="adipiscing" style="top: 78px"
+              >Consectetur adipiscing</a
+            >
+            <a href="#" class="adipiscing" style="top: 130px"
+              >Consectetur adipiscing</a
+            >
+            <a href="#" class="dolore" style="top: 52px">Labore et dolore</a>
+            <a href="#" class="dolore" style="top: 104px">Labore et dolore</a>
+          </div>
+        </div>
+        <div class="socialIcons">
+          <a href="https://x.com/harry828486">
+            <img
+              class="socialIcon"
+              src="images/twitter.png"
+              style="left: 0px"
+              alt=""
+            />
+          </a>
+          <a href="https://github.com/hemantkardam">
+            <img
+              class="socialIcon"
+              src="images/github.png"
+              style="left: 48px"
+              alt=""
+            />
+          </a>
+          <a href="https://www.facebook.com/hemant.kardam.54">
+            <img
+              class="socialIcon"
+              src="images/facebook.png"
+              style="left: 96px"
+              alt=""
+            />
+          </a>
+          <a href="https://www.instagram.com/harry____hk_01/">
+            <img
+              class="socialIcon"
+              src="images/instagram.png"
+              style="left: 144px"
+              alt=""
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/hemant-kardam/">
+            <img
+              class="socialIcon"
+              src="images/linkedin.png"
+              style="left: 192px"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const playBtn = document.getElementById("play");
+      const playPath = document.getElementById("path");
+      const poster = document.getElementById("poster");
+      const ytPlayer = document.getElementById("ytPlayer");
+
+      playBtn.addEventListener("click", () => {
+        playBtn.style.display = "none";
+        poster.style.display = "none";
+        playPath.style.display = "none";
+        ytPlayer.src = "https://www.youtube.com/watch?v=u31qwQUeGuM";
+        ytPlayer.style.display = "block";
+      });
+      playPath.addEventListener("click", () => {
+        playBtn.style.display = "none";
+        poster.style.display = "none";
+        playPath.style.display = "none";
+        ytPlayer.src = "https://www.youtube.com/watch?v=u31qwQUeGuM";
+        ytPlayer.style.display = "block";
+      });
+    </script>
+  </body>
+</html>
