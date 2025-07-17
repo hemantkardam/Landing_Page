@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
 }
+
+
 body {
   position: relative;
   font-family: "Inter", sans-serif;
@@ -632,7 +634,6 @@ color: rgba(217, 227, 234, 1);
     height: 8.98749828338623px;
     opacity: 1;
     top: 9px;
-    background: rgba(72, 187, 120, 1);
 }
 .bulletPointText{
     position: absolute;
